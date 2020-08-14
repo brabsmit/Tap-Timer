@@ -7,7 +7,6 @@
 
 import Foundation
 import SwiftUI
-import CoreData
 
 class StopWatchManager: ObservableObject {
     enum stopWatchMode {
