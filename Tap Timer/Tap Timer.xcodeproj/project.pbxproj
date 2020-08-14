@@ -13,6 +13,7 @@
 		00FE2CC624E6308B00CBE960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FE2CC524E6308B00CBE960 /* Preview Assets.xcassets */; };
 		00FE2CD124E6308B00CBE960 /* Tap_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CD024E6308B00CBE960 /* Tap_TimerTests.swift */; };
 		00FE2CDC24E6308B00CBE960 /* Tap_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CDB24E6308B00CBE960 /* Tap_TimerUITests.swift */; };
+		00FE2CEA24E63A8A00CBE960 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		00FE2CD724E6308B00CBE960 /* Tap TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FE2CDB24E6308B00CBE960 /* Tap_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_TimerUITests.swift; sourceTree = "<group>"; };
 		00FE2CDD24E6308B00CBE960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				00FE2CC224E6308B00CBE960 /* Assets.xcassets */,
 				00FE2CC724E6308B00CBE960 /* Info.plist */,
 				00FE2CC424E6308B00CBE960 /* Preview Content */,
+				00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */,
 			);
 			path = "Tap Timer";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FE2CC124E6308500CBE960 /* ContentView.swift in Sources */,
+				00FE2CEA24E63A8A00CBE960 /* StopWatchManager.swift in Sources */,
 				00FE2CBF24E6308500CBE960 /* Tap_TimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
