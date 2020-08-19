@@ -16,6 +16,4 @@ target 'Tap Timer' do
     # Pods for testing
   end
 
-pod 'EasyStash', '~> 1.1'
-
 end
