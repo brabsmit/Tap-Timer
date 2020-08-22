@@ -15,6 +15,8 @@
 		00FE2CDC24E6308B00CBE960 /* Tap_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CDB24E6308B00CBE960 /* Tap_TimerUITests.swift */; };
 		00FE2CEA24E63A8A00CBE960 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */; };
 		00FE2CF024E6FAE600CBE960 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CEE24E6FAE600CBE960 /* Model.xcdatamodeld */; };
+		00FE2CFD24F0F3D000CBE960 /* Solve+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CFB24F0F3D000CBE960 /* Solve+CoreDataClass.swift */; };
+		00FE2CFE24F0F3D000CBE960 /* Solve+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CFC24F0F3D000CBE960 /* Solve+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		00FE2CDD24E6308B00CBE960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
 		00FE2CEF24E6FAE600CBE960 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		00FE2CFB24F0F3D000CBE960 /* Solve+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataClass.swift"; sourceTree = "<group>"; };
+		00FE2CFC24F0F3D000CBE960 /* Solve+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		00FE2CBD24E6308500CBE960 /* Tap Timer */ = {
 			isa = PBXGroup;
 			children = (
+				00FE2CFB24F0F3D000CBE960 /* Solve+CoreDataClass.swift */,
+				00FE2CFC24F0F3D000CBE960 /* Solve+CoreDataProperties.swift */,
 				00FE2CBE24E6308500CBE960 /* Tap_TimerApp.swift */,
 				00FE2CC024E6308500CBE960 /* ContentView.swift */,
 				00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */,
@@ -266,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FE2CC124E6308500CBE960 /* ContentView.swift in Sources */,
+				00FE2CFE24F0F3D000CBE960 /* Solve+CoreDataProperties.swift in Sources */,
 				00FE2CEA24E63A8A00CBE960 /* StopWatchManager.swift in Sources */,
+				00FE2CFD24F0F3D000CBE960 /* Solve+CoreDataClass.swift in Sources */,
 				00FE2CBF24E6308500CBE960 /* Tap_TimerApp.swift in Sources */,
 				00FE2CF024E6FAE600CBE960 /* Model.xcdatamodeld in Sources */,
 			);
