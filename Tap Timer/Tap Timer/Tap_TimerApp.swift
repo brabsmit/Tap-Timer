@@ -43,10 +43,9 @@ public class PersistentCloudKitContainer {
 
 @main
 struct Tap_TimerApp: App {
-    let context = PersistentCloudKitContainer.persistentContainer.viewContext
     var body: some Scene {
         WindowGroup {
-            ContentView().environment(\.managedObjectContext, context)
+            ContentView()
         }
     }
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -83,7 +83,6 @@
 				00FE2CCF24E6308B00CBE960 /* Tap TimerTests */,
 				00FE2CDA24E6308B00CBE960 /* Tap TimerUITests */,
 				00FE2CBC24E6308500CBE960 /* Products */,
-				B79324AAE06105E17AE6D562 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +99,7 @@
 		00FE2CBD24E6308500CBE960 /* Tap Timer */ = {
 			isa = PBXGroup;
 			children = (
+				00FE2D0324F0F66900CBE960 /* Model */,
 				00FE2CBE24E6308500CBE960 /* Tap_TimerApp.swift */,
 				00FE2CC024E6308500CBE960 /* ContentView.swift */,
 				00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */,
@@ -137,11 +137,11 @@
 			path = "Tap TimerUITests";
 			sourceTree = "<group>";
 		};
-		B79324AAE06105E17AE6D562 /* Pods */ = {
+		00FE2D0324F0F66900CBE960 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Pods;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tap Timer/Preview Content\"";
+				DEVELOPMENT_TEAM = 39P59F2TF8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Tap Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -456,6 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tap Timer/Preview Content\"";
+				DEVELOPMENT_TEAM = 39P59F2TF8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Tap Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
