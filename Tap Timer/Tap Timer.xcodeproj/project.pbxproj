@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0059FCE324F103DE00BAE884 /* Solve+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059FCE124F103DD00BAE884 /* Solve+CoreDataClass.swift */; };
 		00FE2CBF24E6308500CBE960 /* Tap_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CBE24E6308500CBE960 /* Tap_TimerApp.swift */; };
 		00FE2CC124E6308500CBE960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CC024E6308500CBE960 /* ContentView.swift */; };
 		00FE2CC324E6308B00CBE960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FE2CC224E6308B00CBE960 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0059FCE124F103DD00BAE884 /* Solve+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataClass.swift"; sourceTree = "<group>"; };
 		00FE2CBB24E6308500CBE960 /* Tap Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FE2CBE24E6308500CBE960 /* Tap_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_TimerApp.swift; sourceTree = "<group>"; };
 		00FE2CC024E6308500CBE960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		00FE2D0324F0F66900CBE960 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0059FCE124F103DD00BAE884 /* Solve+CoreDataClass.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				00FE2CC124E6308500CBE960 /* ContentView.swift in Sources */,
 				00FE2CEA24E63A8A00CBE960 /* StopWatchManager.swift in Sources */,
+				0059FCE324F103DE00BAE884 /* Solve+CoreDataClass.swift in Sources */,
 				00FE2CBF24E6308500CBE960 /* Tap_TimerApp.swift in Sources */,
 				00FE2CF024E6FAE600CBE960 /* Model.xcdatamodeld in Sources */,
 			);
