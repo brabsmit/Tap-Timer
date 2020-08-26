@@ -18,6 +18,8 @@ class StopWatchManager: ObservableObject {
     @Published var secondsElapsed = 0.00
     @Published var mode: stopWatchMode = .stopped
     
+    @Environment(\.managedObjectContext) var managedObjectContext
+    
     var timer = Timer()
     
     func start() {
@@ -34,6 +36,16 @@ class StopWatchManager: ObservableObject {
     }
     
     func stop() {
+        /*let newSolve = Solve(context: managedObjectContext)
+        newSolve.solveDate = Date()
+        newSolve.solveTime = secondsElapsed
+        do {
+            try managedObjectContext.save()
+            print("Order saved.")
+        } catch {
+            print(error.localizedDescription)
+        }*/
+        
         secondsElapsed = 0
         mode = .stopped
     }

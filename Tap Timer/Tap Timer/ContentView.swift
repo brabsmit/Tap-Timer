@@ -24,6 +24,7 @@ struct TimerButton: View {
 
 struct ContentView: View {
     @ObservedObject var stopWatchManager = StopWatchManager()
+    @Environment(\.managedObjectContext) var managedObjectContext
     var body: some View {
         VStack {
             Text(String(format: "%.2f", stopWatchManager.secondsElapsed))
