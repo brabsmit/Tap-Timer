@@ -5,6 +5,6 @@
         <attribute name="solveTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
     </entity>
     <elements>
-        <element name="Solve" positionX="-45" positionY="0" width="128" height="73"/>
+        <element name="Solve" positionX="-63" positionY="-18" width="128" height="73"/>
     </elements>
 </model>

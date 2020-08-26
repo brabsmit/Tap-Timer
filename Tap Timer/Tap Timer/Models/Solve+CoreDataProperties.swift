@@ -16,8 +16,8 @@ extension Solve {
         return NSFetchRequest<Solve>(entityName: "Solve")
     }
 
-    @NSManaged public var solveDate: Date?
     @NSManaged public var solveTime: Double
+    @NSManaged public var solveDate: Date?
 
 }
 
