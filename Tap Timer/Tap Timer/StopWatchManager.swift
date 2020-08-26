@@ -2,7 +2,7 @@
 //  StopWatchManager.swift
 //  Tap Timer
 //
-//  Created by Bryan Smith on 8/13/20.
+//  Created by Bryan Smith on 8/26/20.
 //
 
 import Foundation

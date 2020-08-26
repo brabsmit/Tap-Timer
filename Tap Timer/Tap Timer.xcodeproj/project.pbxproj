@@ -7,66 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00FE2CBF24E6308500CBE960 /* Tap_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CBE24E6308500CBE960 /* Tap_TimerApp.swift */; };
-		00FE2CC124E6308500CBE960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CC024E6308500CBE960 /* ContentView.swift */; };
-		00FE2CC324E6308B00CBE960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FE2CC224E6308B00CBE960 /* Assets.xcassets */; };
-		00FE2CC624E6308B00CBE960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FE2CC524E6308B00CBE960 /* Preview Assets.xcassets */; };
-		00FE2CD124E6308B00CBE960 /* Tap_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CD024E6308B00CBE960 /* Tap_TimerTests.swift */; };
-		00FE2CDC24E6308B00CBE960 /* Tap_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CDB24E6308B00CBE960 /* Tap_TimerUITests.swift */; };
-		00FE2CEA24E63A8A00CBE960 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */; };
-		00FE2CF024E6FAE600CBE960 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00FE2CEE24E6FAE600CBE960 /* Model.xcdatamodeld */; };
+		0005D1BA24F604D100613D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005D1B924F604D100613D34 /* AppDelegate.swift */; };
+		0005D1BC24F604D100613D34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005D1BB24F604D100613D34 /* SceneDelegate.swift */; };
+		0005D1BF24F604D100613D34 /* Tap_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0005D1BD24F604D100613D34 /* Tap_Timer.xcdatamodeld */; };
+		0005D1C124F604D100613D34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005D1C024F604D100613D34 /* ContentView.swift */; };
+		0005D1C324F604D700613D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0005D1C224F604D700613D34 /* Assets.xcassets */; };
+		0005D1C624F604D700613D34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0005D1C524F604D700613D34 /* Preview Assets.xcassets */; };
+		0005D1C924F604D700613D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0005D1C724F604D700613D34 /* LaunchScreen.storyboard */; };
+		0005D1D424F604D800613D34 /* Tap_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005D1D324F604D800613D34 /* Tap_TimerTests.swift */; };
+		0005D1DF24F604D800613D34 /* Tap_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005D1DE24F604D800613D34 /* Tap_TimerUITests.swift */; };
+		0005D1ED24F6052F00613D34 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005D1EC24F6052F00613D34 /* StopWatchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00FE2CCD24E6308B00CBE960 /* PBXContainerItemProxy */ = {
+		0005D1D024F604D700613D34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00FE2CB324E6308500CBE960 /* Project object */;
+			containerPortal = 0005D1AE24F604D100613D34 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00FE2CBA24E6308500CBE960;
+			remoteGlobalIDString = 0005D1B524F604D100613D34;
 			remoteInfo = "Tap Timer";
 		};
-		00FE2CD824E6308B00CBE960 /* PBXContainerItemProxy */ = {
+		0005D1DB24F604D800613D34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00FE2CB324E6308500CBE960 /* Project object */;
+			containerPortal = 0005D1AE24F604D100613D34 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00FE2CBA24E6308500CBE960;
+			remoteGlobalIDString = 0005D1B524F604D100613D34;
 			remoteInfo = "Tap Timer";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00FE2CBB24E6308500CBE960 /* Tap Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00FE2CBE24E6308500CBE960 /* Tap_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_TimerApp.swift; sourceTree = "<group>"; };
-		00FE2CC024E6308500CBE960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00FE2CC224E6308B00CBE960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00FE2CC524E6308B00CBE960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		00FE2CC724E6308B00CBE960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00FE2CCC24E6308B00CBE960 /* Tap TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00FE2CD024E6308B00CBE960 /* Tap_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_TimerTests.swift; sourceTree = "<group>"; };
-		00FE2CD224E6308B00CBE960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00FE2CD724E6308B00CBE960 /* Tap TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00FE2CDB24E6308B00CBE960 /* Tap_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_TimerUITests.swift; sourceTree = "<group>"; };
-		00FE2CDD24E6308B00CBE960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
-		00FE2CEF24E6FAE600CBE960 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		0005D1B624F604D100613D34 /* Tap Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0005D1B924F604D100613D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0005D1BB24F604D100613D34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0005D1BE24F604D100613D34 /* Tap_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tap_Timer.xcdatamodel; sourceTree = "<group>"; };
+		0005D1C024F604D100613D34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0005D1C224F604D700613D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0005D1C524F604D700613D34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0005D1C824F604D700613D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0005D1CA24F604D700613D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0005D1CF24F604D700613D34 /* Tap TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0005D1D324F604D800613D34 /* Tap_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_TimerTests.swift; sourceTree = "<group>"; };
+		0005D1D524F604D800613D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0005D1DA24F604D800613D34 /* Tap TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0005D1DE24F604D800613D34 /* Tap_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_TimerUITests.swift; sourceTree = "<group>"; };
+		0005D1E024F604D800613D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0005D1EC24F6052F00613D34 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00FE2CB824E6308500CBE960 /* Frameworks */ = {
+		0005D1B324F604D100613D34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00FE2CC924E6308B00CBE960 /* Frameworks */ = {
+		0005D1CC24F604D700613D34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00FE2CD424E6308B00CBE960 /* Frameworks */ = {
+		0005D1D724F604D800613D34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,84 +80,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00FE2CB224E6308500CBE960 = {
+		0005D1AD24F604D100613D34 = {
 			isa = PBXGroup;
 			children = (
-				00FE2CBD24E6308500CBE960 /* Tap Timer */,
-				00FE2CCF24E6308B00CBE960 /* Tap TimerTests */,
-				00FE2CDA24E6308B00CBE960 /* Tap TimerUITests */,
-				00FE2CBC24E6308500CBE960 /* Products */,
+				0005D1B824F604D100613D34 /* Tap Timer */,
+				0005D1D224F604D800613D34 /* Tap TimerTests */,
+				0005D1DD24F604D800613D34 /* Tap TimerUITests */,
+				0005D1B724F604D100613D34 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		00FE2CBC24E6308500CBE960 /* Products */ = {
+		0005D1B724F604D100613D34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00FE2CBB24E6308500CBE960 /* Tap Timer.app */,
-				00FE2CCC24E6308B00CBE960 /* Tap TimerTests.xctest */,
-				00FE2CD724E6308B00CBE960 /* Tap TimerUITests.xctest */,
+				0005D1B624F604D100613D34 /* Tap Timer.app */,
+				0005D1CF24F604D700613D34 /* Tap TimerTests.xctest */,
+				0005D1DA24F604D800613D34 /* Tap TimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00FE2CBD24E6308500CBE960 /* Tap Timer */ = {
+		0005D1B824F604D100613D34 /* Tap Timer */ = {
 			isa = PBXGroup;
 			children = (
-				00FE2D0324F0F66900CBE960 /* Model */,
-				00FE2CBE24E6308500CBE960 /* Tap_TimerApp.swift */,
-				00FE2CC024E6308500CBE960 /* ContentView.swift */,
-				00FE2CE924E63A8900CBE960 /* StopWatchManager.swift */,
-				00FE2CEE24E6FAE600CBE960 /* Model.xcdatamodeld */,
-				00FE2CC224E6308B00CBE960 /* Assets.xcassets */,
-				00FE2CC724E6308B00CBE960 /* Info.plist */,
-				00FE2CC424E6308B00CBE960 /* Preview Content */,
+				0005D1B924F604D100613D34 /* AppDelegate.swift */,
+				0005D1BB24F604D100613D34 /* SceneDelegate.swift */,
+				0005D1EC24F6052F00613D34 /* StopWatchManager.swift */,
+				0005D1C024F604D100613D34 /* ContentView.swift */,
+				0005D1C224F604D700613D34 /* Assets.xcassets */,
+				0005D1C724F604D700613D34 /* LaunchScreen.storyboard */,
+				0005D1CA24F604D700613D34 /* Info.plist */,
+				0005D1BD24F604D100613D34 /* Tap_Timer.xcdatamodeld */,
+				0005D1C424F604D700613D34 /* Preview Content */,
 			);
 			path = "Tap Timer";
 			sourceTree = "<group>";
 		};
-		00FE2CC424E6308B00CBE960 /* Preview Content */ = {
+		0005D1C424F604D700613D34 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				00FE2CC524E6308B00CBE960 /* Preview Assets.xcassets */,
+				0005D1C524F604D700613D34 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		00FE2CCF24E6308B00CBE960 /* Tap TimerTests */ = {
+		0005D1D224F604D800613D34 /* Tap TimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				00FE2CD024E6308B00CBE960 /* Tap_TimerTests.swift */,
-				00FE2CD224E6308B00CBE960 /* Info.plist */,
+				0005D1D324F604D800613D34 /* Tap_TimerTests.swift */,
+				0005D1D524F604D800613D34 /* Info.plist */,
 			);
 			path = "Tap TimerTests";
 			sourceTree = "<group>";
 		};
-		00FE2CDA24E6308B00CBE960 /* Tap TimerUITests */ = {
+		0005D1DD24F604D800613D34 /* Tap TimerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				00FE2CDB24E6308B00CBE960 /* Tap_TimerUITests.swift */,
-				00FE2CDD24E6308B00CBE960 /* Info.plist */,
+				0005D1DE24F604D800613D34 /* Tap_TimerUITests.swift */,
+				0005D1E024F604D800613D34 /* Info.plist */,
 			);
 			path = "Tap TimerUITests";
-			sourceTree = "<group>";
-		};
-		00FE2D0324F0F66900CBE960 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00FE2CBA24E6308500CBE960 /* Tap Timer */ = {
+		0005D1B524F604D100613D34 /* Tap Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00FE2CE024E6308B00CBE960 /* Build configuration list for PBXNativeTarget "Tap Timer" */;
+			buildConfigurationList = 0005D1E324F604D800613D34 /* Build configuration list for PBXNativeTarget "Tap Timer" */;
 			buildPhases = (
-				00FE2CB724E6308500CBE960 /* Sources */,
-				00FE2CB824E6308500CBE960 /* Frameworks */,
-				00FE2CB924E6308500CBE960 /* Resources */,
+				0005D1B224F604D100613D34 /* Sources */,
+				0005D1B324F604D100613D34 /* Frameworks */,
+				0005D1B424F604D100613D34 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -161,68 +159,68 @@
 			);
 			name = "Tap Timer";
 			productName = "Tap Timer";
-			productReference = 00FE2CBB24E6308500CBE960 /* Tap Timer.app */;
+			productReference = 0005D1B624F604D100613D34 /* Tap Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00FE2CCB24E6308B00CBE960 /* Tap TimerTests */ = {
+		0005D1CE24F604D700613D34 /* Tap TimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00FE2CE324E6308B00CBE960 /* Build configuration list for PBXNativeTarget "Tap TimerTests" */;
+			buildConfigurationList = 0005D1E624F604D800613D34 /* Build configuration list for PBXNativeTarget "Tap TimerTests" */;
 			buildPhases = (
-				00FE2CC824E6308B00CBE960 /* Sources */,
-				00FE2CC924E6308B00CBE960 /* Frameworks */,
-				00FE2CCA24E6308B00CBE960 /* Resources */,
+				0005D1CB24F604D700613D34 /* Sources */,
+				0005D1CC24F604D700613D34 /* Frameworks */,
+				0005D1CD24F604D700613D34 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00FE2CCE24E6308B00CBE960 /* PBXTargetDependency */,
+				0005D1D124F604D700613D34 /* PBXTargetDependency */,
 			);
 			name = "Tap TimerTests";
 			productName = "Tap TimerTests";
-			productReference = 00FE2CCC24E6308B00CBE960 /* Tap TimerTests.xctest */;
+			productReference = 0005D1CF24F604D700613D34 /* Tap TimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		00FE2CD624E6308B00CBE960 /* Tap TimerUITests */ = {
+		0005D1D924F604D800613D34 /* Tap TimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00FE2CE624E6308B00CBE960 /* Build configuration list for PBXNativeTarget "Tap TimerUITests" */;
+			buildConfigurationList = 0005D1E924F604D800613D34 /* Build configuration list for PBXNativeTarget "Tap TimerUITests" */;
 			buildPhases = (
-				00FE2CD324E6308B00CBE960 /* Sources */,
-				00FE2CD424E6308B00CBE960 /* Frameworks */,
-				00FE2CD524E6308B00CBE960 /* Resources */,
+				0005D1D624F604D800613D34 /* Sources */,
+				0005D1D724F604D800613D34 /* Frameworks */,
+				0005D1D824F604D800613D34 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00FE2CD924E6308B00CBE960 /* PBXTargetDependency */,
+				0005D1DC24F604D800613D34 /* PBXTargetDependency */,
 			);
 			name = "Tap TimerUITests";
 			productName = "Tap TimerUITests";
-			productReference = 00FE2CD724E6308B00CBE960 /* Tap TimerUITests.xctest */;
+			productReference = 0005D1DA24F604D800613D34 /* Tap TimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00FE2CB324E6308500CBE960 /* Project object */ = {
+		0005D1AE24F604D100613D34 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					00FE2CBA24E6308500CBE960 = {
+					0005D1B524F604D100613D34 = {
 						CreatedOnToolsVersion = 12.0;
 					};
-					00FE2CCB24E6308B00CBE960 = {
+					0005D1CE24F604D700613D34 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 00FE2CBA24E6308500CBE960;
+						TestTargetID = 0005D1B524F604D100613D34;
 					};
-					00FE2CD624E6308B00CBE960 = {
+					0005D1D924F604D800613D34 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 00FE2CBA24E6308500CBE960;
+						TestTargetID = 0005D1B524F604D100613D34;
 					};
 				};
 			};
-			buildConfigurationList = 00FE2CB624E6308500CBE960 /* Build configuration list for PBXProject "Tap Timer" */;
+			buildConfigurationList = 0005D1B124F604D100613D34 /* Build configuration list for PBXProject "Tap Timer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,36 +228,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 00FE2CB224E6308500CBE960;
-			productRefGroup = 00FE2CBC24E6308500CBE960 /* Products */;
+			mainGroup = 0005D1AD24F604D100613D34;
+			productRefGroup = 0005D1B724F604D100613D34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00FE2CBA24E6308500CBE960 /* Tap Timer */,
-				00FE2CCB24E6308B00CBE960 /* Tap TimerTests */,
-				00FE2CD624E6308B00CBE960 /* Tap TimerUITests */,
+				0005D1B524F604D100613D34 /* Tap Timer */,
+				0005D1CE24F604D700613D34 /* Tap TimerTests */,
+				0005D1D924F604D800613D34 /* Tap TimerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00FE2CB924E6308500CBE960 /* Resources */ = {
+		0005D1B424F604D100613D34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FE2CC624E6308B00CBE960 /* Preview Assets.xcassets in Resources */,
-				00FE2CC324E6308B00CBE960 /* Assets.xcassets in Resources */,
+				0005D1C924F604D700613D34 /* LaunchScreen.storyboard in Resources */,
+				0005D1C624F604D700613D34 /* Preview Assets.xcassets in Resources */,
+				0005D1C324F604D700613D34 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00FE2CCA24E6308B00CBE960 /* Resources */ = {
+		0005D1CD24F604D700613D34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00FE2CD524E6308B00CBE960 /* Resources */ = {
+		0005D1D824F604D800613D34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,50 +268,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00FE2CB724E6308500CBE960 /* Sources */ = {
+		0005D1B224F604D100613D34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FE2CC124E6308500CBE960 /* ContentView.swift in Sources */,
-				00FE2CEA24E63A8A00CBE960 /* StopWatchManager.swift in Sources */,
-				00FE2CBF24E6308500CBE960 /* Tap_TimerApp.swift in Sources */,
-				00FE2CF024E6FAE600CBE960 /* Model.xcdatamodeld in Sources */,
+				0005D1BA24F604D100613D34 /* AppDelegate.swift in Sources */,
+				0005D1ED24F6052F00613D34 /* StopWatchManager.swift in Sources */,
+				0005D1BC24F604D100613D34 /* SceneDelegate.swift in Sources */,
+				0005D1C124F604D100613D34 /* ContentView.swift in Sources */,
+				0005D1BF24F604D100613D34 /* Tap_Timer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00FE2CC824E6308B00CBE960 /* Sources */ = {
+		0005D1CB24F604D700613D34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FE2CD124E6308B00CBE960 /* Tap_TimerTests.swift in Sources */,
+				0005D1D424F604D800613D34 /* Tap_TimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00FE2CD324E6308B00CBE960 /* Sources */ = {
+		0005D1D624F604D800613D34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FE2CDC24E6308B00CBE960 /* Tap_TimerUITests.swift in Sources */,
+				0005D1DF24F604D800613D34 /* Tap_TimerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00FE2CCE24E6308B00CBE960 /* PBXTargetDependency */ = {
+		0005D1D124F604D700613D34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00FE2CBA24E6308500CBE960 /* Tap Timer */;
-			targetProxy = 00FE2CCD24E6308B00CBE960 /* PBXContainerItemProxy */;
+			target = 0005D1B524F604D100613D34 /* Tap Timer */;
+			targetProxy = 0005D1D024F604D700613D34 /* PBXContainerItemProxy */;
 		};
-		00FE2CD924E6308B00CBE960 /* PBXTargetDependency */ = {
+		0005D1DC24F604D800613D34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00FE2CBA24E6308500CBE960 /* Tap Timer */;
-			targetProxy = 00FE2CD824E6308B00CBE960 /* PBXContainerItemProxy */;
+			target = 0005D1B524F604D100613D34 /* Tap Timer */;
+			targetProxy = 0005D1DB24F604D800613D34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		0005D1C724F604D700613D34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0005D1C824F604D700613D34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		00FE2CDE24E6308B00CBE960 /* Debug */ = {
+		0005D1E124F604D800613D34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +384,7 @@
 			};
 			name = Debug;
 		};
-		00FE2CDF24E6308B00CBE960 /* Release */ = {
+		0005D1E224F604D800613D34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,17 +439,15 @@
 			};
 			name = Release;
 		};
-		00FE2CE124E6308B00CBE960 /* Debug */ = {
+		0005D1E424F604D800613D34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tap Timer/Preview Content\"";
-				DEVELOPMENT_TEAM = 39P59F2TF8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Tap Timer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,17 +459,15 @@
 			};
 			name = Debug;
 		};
-		00FE2CE224E6308B00CBE960 /* Release */ = {
+		0005D1E524F604D800613D34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tap Timer/Preview Content\"";
-				DEVELOPMENT_TEAM = 39P59F2TF8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Tap Timer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,7 +479,7 @@
 			};
 			name = Release;
 		};
-		00FE2CE424E6308B00CBE960 /* Debug */ = {
+		0005D1E724F604D800613D34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -493,7 +500,7 @@
 			};
 			name = Debug;
 		};
-		00FE2CE524E6308B00CBE960 /* Release */ = {
+		0005D1E824F604D800613D34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,7 +521,7 @@
 			};
 			name = Release;
 		};
-		00FE2CE724E6308B00CBE960 /* Debug */ = {
+		0005D1EA24F604D800613D34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -533,7 +540,7 @@
 			};
 			name = Debug;
 		};
-		00FE2CE824E6308B00CBE960 /* Release */ = {
+		0005D1EB24F604D800613D34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,38 +562,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00FE2CB624E6308500CBE960 /* Build configuration list for PBXProject "Tap Timer" */ = {
+		0005D1B124F604D100613D34 /* Build configuration list for PBXProject "Tap Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00FE2CDE24E6308B00CBE960 /* Debug */,
-				00FE2CDF24E6308B00CBE960 /* Release */,
+				0005D1E124F604D800613D34 /* Debug */,
+				0005D1E224F604D800613D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00FE2CE024E6308B00CBE960 /* Build configuration list for PBXNativeTarget "Tap Timer" */ = {
+		0005D1E324F604D800613D34 /* Build configuration list for PBXNativeTarget "Tap Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00FE2CE124E6308B00CBE960 /* Debug */,
-				00FE2CE224E6308B00CBE960 /* Release */,
+				0005D1E424F604D800613D34 /* Debug */,
+				0005D1E524F604D800613D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00FE2CE324E6308B00CBE960 /* Build configuration list for PBXNativeTarget "Tap TimerTests" */ = {
+		0005D1E624F604D800613D34 /* Build configuration list for PBXNativeTarget "Tap TimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00FE2CE424E6308B00CBE960 /* Debug */,
-				00FE2CE524E6308B00CBE960 /* Release */,
+				0005D1E724F604D800613D34 /* Debug */,
+				0005D1E824F604D800613D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00FE2CE624E6308B00CBE960 /* Build configuration list for PBXNativeTarget "Tap TimerUITests" */ = {
+		0005D1E924F604D800613D34 /* Build configuration list for PBXNativeTarget "Tap TimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00FE2CE724E6308B00CBE960 /* Debug */,
-				00FE2CE824E6308B00CBE960 /* Release */,
+				0005D1EA24F604D800613D34 /* Debug */,
+				0005D1EB24F604D800613D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -594,17 +601,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		00FE2CEE24E6FAE600CBE960 /* Model.xcdatamodeld */ = {
+		0005D1BD24F604D100613D34 /* Tap_Timer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				00FE2CEF24E6FAE600CBE960 /* Model.xcdatamodel */,
+				0005D1BE24F604D100613D34 /* Tap_Timer.xcdatamodel */,
 			);
-			currentVersion = 00FE2CEF24E6FAE600CBE960 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
+			currentVersion = 0005D1BE24F604D100613D34 /* Tap_Timer.xcdatamodel */;
+			path = Tap_Timer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 00FE2CB324E6308500CBE960 /* Project object */;
+	rootObject = 0005D1AE24F604D100613D34 /* Project object */;
 }
