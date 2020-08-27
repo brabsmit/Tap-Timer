@@ -19,6 +19,7 @@
 		003C543724F6711F0097C07F /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C543624F6711F0097C07F /* StopWatchManager.swift */; };
 		003C543A24F6719C0097C07F /* Solve+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C543824F6719C0097C07F /* Solve+CoreDataClass.swift */; };
 		003C543B24F6719C0097C07F /* Solve+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C543924F6719C0097C07F /* Solve+CoreDataProperties.swift */; };
+		003C544224F744350097C07F /* SolveDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C544124F744350097C07F /* SolveDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		003C543624F6711F0097C07F /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
 		003C543824F6719C0097C07F /* Solve+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataClass.swift"; sourceTree = "<group>"; };
 		003C543924F6719C0097C07F /* Solve+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		003C544124F744350097C07F /* SolveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				003C540524F670F20097C07F /* SceneDelegate.swift */,
 				003C540A24F670F20097C07F /* ContentView.swift */,
 				003C543624F6711F0097C07F /* StopWatchManager.swift */,
+				003C544124F744350097C07F /* SolveDetailView.swift */,
 				003C540C24F670F70097C07F /* Assets.xcassets */,
 				003C541124F670F70097C07F /* LaunchScreen.storyboard */,
 				003C541424F670F70097C07F /* Info.plist */,
@@ -293,6 +296,7 @@
 				003C543B24F6719C0097C07F /* Solve+CoreDataProperties.swift in Sources */,
 				003C540B24F670F20097C07F /* ContentView.swift in Sources */,
 				003C540924F670F20097C07F /* Tap_Timer.xcdatamodeld in Sources */,
+				003C544224F744350097C07F /* SolveDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
