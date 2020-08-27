@@ -42,6 +42,7 @@ class StopWatchManager: ObservableObject {
         do {
             try self.context.save()
         } catch {
+            // TODO: catch context save exception
             print(error.localizedDescription)
         }
         

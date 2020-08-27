@@ -27,10 +27,42 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) var context
     @ObservedObject var stopWatchManager = StopWatchManager()
     
+    let debug = true
+    
     @FetchRequest(
         entity: Solve.entity(),
         sortDescriptors: [NSSortDescriptor(keyPath: \Solve.solveDate, ascending: false)]
         ) var fetchedSolves: FetchedResults<Solve>
+    
+    func removeSolve(at offsets: IndexSet) {
+        for index in offsets {
+            let solve = fetchedSolves[index]
+            context.delete(solve)
+        }
+        do {
+            try context.save()
+        } catch {
+            // TODO: catch context save exception
+            print(error.localizedDescription)
+        }
+    }
+    
+    func removeAllSolves() {
+        for solve in fetchedSolves {
+            context.delete(solve)
+        }
+        do {
+            try context.save()
+        } catch {
+            // TODO: catch context save exception
+            print(error.localizedDescription)
+        }
+    }
+    
+    @State private var showAlert = false
+    var removeAllSolvesAlert: Alert {
+        Alert(title: Text("DEBUG: Remove all solves?"), message: Text("All data will be lost."), primaryButton: .destructive(Text("Yes"), action: removeAllSolves), secondaryButton: .cancel(Text("No")))
+        }
     
     var body: some View {
         VStack {
@@ -38,9 +70,16 @@ struct ContentView: View {
                 .font(.custom("Avenir", size: 40))
                 .padding(.top, 200)
                 .padding(.bottom, 100)
-            if stopWatchManager.mode == .stopped {
+            if stopWatchManager.mode == .stopped && debug == false {
                 Button(action: {self.stopWatchManager.start()}) {
                         TimerButton(label: "Start", buttonColor: .green)
+                            }
+            }
+            if stopWatchManager.mode == .stopped && debug == true {
+                Button(action: {self.stopWatchManager.start()}) {
+                        TimerButton(label: "Start", buttonColor: .green)
+                            .alert(isPresented: $showAlert, content: { self.removeAllSolvesAlert })
+                            .onLongPressGesture { self.showAlert.toggle() }
                             }
             }
             if stopWatchManager.mode == .running {
@@ -59,7 +98,7 @@ struct ContentView: View {
             List {
                 ForEach(fetchedSolves) { solve in
                     Text(String(format: "%.2f", solve.solveTime))
-                }
+                }.onDelete(perform: removeSolve)
             }
         }
     }
