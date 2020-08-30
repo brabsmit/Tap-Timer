@@ -2,7 +2,7 @@
 //  Solve+CoreDataProperties.swift
 //  Tap Timer
 //
-//  Created by Bryan Smith on 8/26/20.
+//  Created by Bryan Smith on 8/30/20.
 //
 //
 
@@ -16,9 +16,10 @@ extension Solve {
         return NSFetchRequest<Solve>(entityName: "Solve")
     }
 
-    @NSManaged public var solveTime: Double
     @NSManaged public var solveDate: Date
+    @NSManaged public var solveTime: Double
     @NSManaged public var solveType: String
+    @NSManaged public var solveScramble: String
 
 }
 

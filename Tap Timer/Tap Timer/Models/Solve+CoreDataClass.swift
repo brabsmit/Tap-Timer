@@ -2,7 +2,7 @@
 //  Solve+CoreDataClass.swift
 //  Tap Timer
 //
-//  Created by Bryan Smith on 8/26/20.
+//  Created by Bryan Smith on 8/30/20.
 //
 //
 

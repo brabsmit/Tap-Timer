@@ -27,6 +27,8 @@ struct StopWatchView: View {
     @ObservedObject var stopWatchManager = StopWatchManager()
     
     var body: some View {
+        Text(stopWatchManager.scramble)
+            .font(.custom("Avenir", size: 30))
         Text(String(format: "%.2f", stopWatchManager.secondsElapsed))
             .font(.custom("Avenir", size: 40))
             .padding(.top, 100)

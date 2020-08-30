@@ -21,6 +21,7 @@ struct SolveDetailView: View {
         VStack {
             Text(dateToString(solveDate: solve.solveDate))
             Text(String(format: "%.2f", solve.solveTime))
+            Text(solve.solveScramble)
             Text(solve.solveType)
         }
     }

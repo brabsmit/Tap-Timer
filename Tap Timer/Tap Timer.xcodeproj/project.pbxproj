@@ -17,14 +17,16 @@
 		003C541E24F670F70097C07F /* Tap_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C541D24F670F70097C07F /* Tap_TimerTests.swift */; };
 		003C542924F670F70097C07F /* Tap_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C542824F670F70097C07F /* Tap_TimerUITests.swift */; };
 		003C543724F6711F0097C07F /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C543624F6711F0097C07F /* StopWatchManager.swift */; };
-		003C543A24F6719C0097C07F /* Solve+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C543824F6719C0097C07F /* Solve+CoreDataClass.swift */; };
-		003C543B24F6719C0097C07F /* Solve+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C543924F6719C0097C07F /* Solve+CoreDataProperties.swift */; };
 		003C544224F744350097C07F /* SolveDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C544124F744350097C07F /* SolveDetailView.swift */; };
 		0060DDE024F78B630020C244 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 0060DDDF24F78B630020C244 /* SwiftUICharts */; };
 		0060DDE424F78ECF0020C244 /* RecentSolvesLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060DDE324F78ECF0020C244 /* RecentSolvesLineChartView.swift */; };
 		0060DDE624F792820020C244 /* SolvesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060DDE524F792820020C244 /* SolvesListView.swift */; };
 		0060DDE824F795B20020C244 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060DDE724F795B20020C244 /* StopWatchView.swift */; };
 		0060DDEA24F7993B0020C244 /* AverageSolvesBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060DDE924F7993B0020C244 /* AverageSolvesBarChartView.swift */; };
+		00D7F50E24FBA93C00A4085E /* ScrambleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D7F50D24FBA93C00A4085E /* ScrambleManager.swift */; };
+		00D7F51024FBADCE00A4085E /* ScramblerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D7F50F24FBADCE00A4085E /* ScramblerView.swift */; };
+		00D7F51324FBB31100A4085E /* Solve+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D7F51124FBB31100A4085E /* Solve+CoreDataClass.swift */; };
+		00D7F51424FBB31100A4085E /* Solve+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D7F51224FBB31100A4085E /* Solve+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,13 +63,15 @@
 		003C542824F670F70097C07F /* Tap_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_TimerUITests.swift; sourceTree = "<group>"; };
 		003C542A24F670F70097C07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		003C543624F6711F0097C07F /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
-		003C543824F6719C0097C07F /* Solve+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataClass.swift"; sourceTree = "<group>"; };
-		003C543924F6719C0097C07F /* Solve+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		003C544124F744350097C07F /* SolveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveDetailView.swift; sourceTree = "<group>"; };
 		0060DDE324F78ECF0020C244 /* RecentSolvesLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSolvesLineChartView.swift; sourceTree = "<group>"; };
 		0060DDE524F792820020C244 /* SolvesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolvesListView.swift; sourceTree = "<group>"; };
 		0060DDE724F795B20020C244 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
 		0060DDE924F7993B0020C244 /* AverageSolvesBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageSolvesBarChartView.swift; sourceTree = "<group>"; };
+		00D7F50D24FBA93C00A4085E /* ScrambleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrambleManager.swift; sourceTree = "<group>"; };
+		00D7F50F24FBADCE00A4085E /* ScramblerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScramblerView.swift; sourceTree = "<group>"; };
+		00D7F51124FBB31100A4085E /* Solve+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataClass.swift"; sourceTree = "<group>"; };
+		00D7F51224FBB31100A4085E /* Solve+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +132,9 @@
 				0060DDE924F7993B0020C244 /* AverageSolvesBarChartView.swift */,
 				0060DDE524F792820020C244 /* SolvesListView.swift */,
 				0060DDE724F795B20020C244 /* StopWatchView.swift */,
+				00D7F50F24FBADCE00A4085E /* ScramblerView.swift */,
 				003C543624F6711F0097C07F /* StopWatchManager.swift */,
+				00D7F50D24FBA93C00A4085E /* ScrambleManager.swift */,
 				003C540C24F670F70097C07F /* Assets.xcassets */,
 				003C541124F670F70097C07F /* LaunchScreen.storyboard */,
 				003C541424F670F70097C07F /* Info.plist */,
@@ -167,8 +173,8 @@
 		003C543C24F6719F0097C07F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				003C543824F6719C0097C07F /* Solve+CoreDataClass.swift */,
-				003C543924F6719C0097C07F /* Solve+CoreDataProperties.swift */,
+				00D7F51124FBB31100A4085E /* Solve+CoreDataClass.swift */,
+				00D7F51224FBB31100A4085E /* Solve+CoreDataProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -311,14 +317,16 @@
 			files = (
 				003C540424F670F20097C07F /* AppDelegate.swift in Sources */,
 				0060DDE824F795B20020C244 /* StopWatchView.swift in Sources */,
+				00D7F51024FBADCE00A4085E /* ScramblerView.swift in Sources */,
 				003C543724F6711F0097C07F /* StopWatchManager.swift in Sources */,
+				00D7F51324FBB31100A4085E /* Solve+CoreDataClass.swift in Sources */,
 				0060DDE424F78ECF0020C244 /* RecentSolvesLineChartView.swift in Sources */,
 				003C540624F670F20097C07F /* SceneDelegate.swift in Sources */,
 				0060DDE624F792820020C244 /* SolvesListView.swift in Sources */,
-				003C543A24F6719C0097C07F /* Solve+CoreDataClass.swift in Sources */,
-				003C543B24F6719C0097C07F /* Solve+CoreDataProperties.swift in Sources */,
+				00D7F50E24FBA93C00A4085E /* ScrambleManager.swift in Sources */,
 				003C540B24F670F20097C07F /* ContentView.swift in Sources */,
 				003C540924F670F20097C07F /* Tap_Timer.xcdatamodeld in Sources */,
+				00D7F51424FBB31100A4085E /* Solve+CoreDataProperties.swift in Sources */,
 				003C544224F744350097C07F /* SolveDetailView.swift in Sources */,
 				0060DDEA24F7993B0020C244 /* AverageSolvesBarChartView.swift in Sources */,
 			);

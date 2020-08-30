@@ -54,8 +54,6 @@ struct AverageSolvesBarChartView: View {
                 let dateFrom = Calendar.current.startOfDay(for: calendar.date(byAdding: .day, value: (-1*daysSearched), to: searchDate)!)
                 let dateTo = Calendar.current.startOfDay(for: calendar.date(byAdding: .day, value: 1, to: dateFrom)!)
                 
-                print("From:", dateFrom, "to", dateTo)
-                
                 let range = dateFrom...dateTo
                 
                 if range.contains(solve.solveDate) {
@@ -68,7 +66,6 @@ struct AverageSolvesBarChartView: View {
             }
         }
         
-        print (solvesList)
         return solvesList.reversed()
     }
     

@@ -20,11 +20,11 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     StopWatchView().padding(.bottom, 20)
-                    SolvesListView(fetchedSolves: fetchedSolves).padding(.bottom, 20)
                     HStack {
                         RecentSolvesLineChartView(fetchedSolves: fetchedSolves)
                         AverageSolvesBarChartView(fetchedSolves: fetchedSolves)
                     }
+                    SolvesListView(fetchedSolves: fetchedSolves).padding(.bottom, 20)
                 }
             }
         }

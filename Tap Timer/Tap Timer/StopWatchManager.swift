@@ -17,10 +17,16 @@ class StopWatchManager: ObservableObject {
     
     @Published var secondsElapsed = 0.00
     @Published var mode: stopWatchMode = .stopped
+    @Published var scramble = ""
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     var timer = Timer()
+    var scrambleManager = ScrambleManager()
+    
+    init() {
+        scramble = scrambleManager.run()
+    }
     
     func start() {
         mode = .running
@@ -38,8 +44,9 @@ class StopWatchManager: ObservableObject {
     func stop() {
         let newSolve = Solve(context: self.context)
         newSolve.solveDate = Date()
-        newSolve.solveTime = secondsElapsed
+        newSolve.solveTime = self.secondsElapsed
         newSolve.solveType = "3x3"
+        newSolve.solveScramble = self.scramble
         do {
             try self.context.save()
         } catch {
@@ -48,6 +55,7 @@ class StopWatchManager: ObservableObject {
         }
         
         secondsElapsed = 0
+        scramble = scrambleManager.run()
         mode = .stopped
     }
 }
