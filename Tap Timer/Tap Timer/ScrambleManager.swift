@@ -40,8 +40,23 @@ class ScrambleManager {
                 direction = directions[Int.random(in: 0...1)]
             }
             
-            scramble.append(rotation + direction + turn)
-            scrambleLength -= 1
+            var goodScramble = true
+            
+            // Check if valid scramble move
+            if scramble.count > 0 {
+                let prevScramble = scramble[scramble.endIndex-1]
+                let prevRotation = prevScramble.character(at: 0)
+                if prevRotation == rotation {
+                    goodScramble = false
+                }
+            }
+            
+            if goodScramble {
+                // Append good scramble move
+                scramble.append(rotation + direction + turn)
+                scrambleLength -= 1
+            }
+            
         }
         
         for move in scramble {
@@ -49,5 +64,20 @@ class ScrambleManager {
         }
         
         return String(scrambleText.dropLast())
+    }
+}
+
+extension String {
+ 
+    func index(at position: Int, from start: Index? = nil) -> Index? {
+        let startingIndex = start ?? startIndex
+        return index(startingIndex, offsetBy: position, limitedBy: endIndex)
+    }
+ 
+    func character(at position: Int) -> String? {
+        guard position >= 0, let indexPosition = index(at: position) else {
+            return nil
+        }
+        return String(self[indexPosition])
     }
 }
