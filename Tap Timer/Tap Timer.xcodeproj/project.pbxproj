@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,11 @@
 		003C543A24F6719C0097C07F /* Solve+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C543824F6719C0097C07F /* Solve+CoreDataClass.swift */; };
 		003C543B24F6719C0097C07F /* Solve+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C543924F6719C0097C07F /* Solve+CoreDataProperties.swift */; };
 		003C544224F744350097C07F /* SolveDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C544124F744350097C07F /* SolveDetailView.swift */; };
+		0060DDE024F78B630020C244 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 0060DDDF24F78B630020C244 /* SwiftUICharts */; };
+		0060DDE424F78ECF0020C244 /* RecentSolvesLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060DDE324F78ECF0020C244 /* RecentSolvesLineChartView.swift */; };
+		0060DDE624F792820020C244 /* SolvesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060DDE524F792820020C244 /* SolvesListView.swift */; };
+		0060DDE824F795B20020C244 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060DDE724F795B20020C244 /* StopWatchView.swift */; };
+		0060DDEA24F7993B0020C244 /* AverageSolvesBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060DDE924F7993B0020C244 /* AverageSolvesBarChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,10 @@
 		003C543824F6719C0097C07F /* Solve+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataClass.swift"; sourceTree = "<group>"; };
 		003C543924F6719C0097C07F /* Solve+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solve+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		003C544124F744350097C07F /* SolveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveDetailView.swift; sourceTree = "<group>"; };
+		0060DDE324F78ECF0020C244 /* RecentSolvesLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSolvesLineChartView.swift; sourceTree = "<group>"; };
+		0060DDE524F792820020C244 /* SolvesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolvesListView.swift; sourceTree = "<group>"; };
+		0060DDE724F795B20020C244 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		0060DDE924F7993B0020C244 /* AverageSolvesBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageSolvesBarChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0060DDE024F78B630020C244 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +123,12 @@
 				003C540324F670F20097C07F /* AppDelegate.swift */,
 				003C540524F670F20097C07F /* SceneDelegate.swift */,
 				003C540A24F670F20097C07F /* ContentView.swift */,
-				003C543624F6711F0097C07F /* StopWatchManager.swift */,
 				003C544124F744350097C07F /* SolveDetailView.swift */,
+				0060DDE324F78ECF0020C244 /* RecentSolvesLineChartView.swift */,
+				0060DDE924F7993B0020C244 /* AverageSolvesBarChartView.swift */,
+				0060DDE524F792820020C244 /* SolvesListView.swift */,
+				0060DDE724F795B20020C244 /* StopWatchView.swift */,
+				003C543624F6711F0097C07F /* StopWatchManager.swift */,
 				003C540C24F670F70097C07F /* Assets.xcassets */,
 				003C541124F670F70097C07F /* LaunchScreen.storyboard */,
 				003C541424F670F70097C07F /* Info.plist */,
@@ -175,6 +189,9 @@
 			dependencies = (
 			);
 			name = "Tap Timer";
+			packageProductDependencies = (
+				0060DDDF24F78B630020C244 /* SwiftUICharts */,
+			);
 			productName = "Tap Timer";
 			productReference = 003C540024F670F20097C07F /* Tap Timer.app */;
 			productType = "com.apple.product-type.application";
@@ -246,6 +263,9 @@
 				Base,
 			);
 			mainGroup = 003C53F724F670F20097C07F;
+			packageReferences = (
+				0060DDDE24F78B620020C244 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 003C540124F670F20097C07F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -290,13 +310,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				003C540424F670F20097C07F /* AppDelegate.swift in Sources */,
+				0060DDE824F795B20020C244 /* StopWatchView.swift in Sources */,
 				003C543724F6711F0097C07F /* StopWatchManager.swift in Sources */,
+				0060DDE424F78ECF0020C244 /* RecentSolvesLineChartView.swift in Sources */,
 				003C540624F670F20097C07F /* SceneDelegate.swift in Sources */,
+				0060DDE624F792820020C244 /* SolvesListView.swift in Sources */,
 				003C543A24F6719C0097C07F /* Solve+CoreDataClass.swift in Sources */,
 				003C543B24F6719C0097C07F /* Solve+CoreDataProperties.swift in Sources */,
 				003C540B24F670F20097C07F /* ContentView.swift in Sources */,
 				003C540924F670F20097C07F /* Tap_Timer.xcdatamodeld in Sources */,
 				003C544224F744350097C07F /* SolveDetailView.swift in Sources */,
+				0060DDEA24F7993B0020C244 /* AverageSolvesBarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +651,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0060DDDE24F78B620020C244 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0060DDDF24F78B630020C244 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0060DDDE24F78B620020C244 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		003C540724F670F20097C07F /* Tap_Timer.xcdatamodeld */ = {

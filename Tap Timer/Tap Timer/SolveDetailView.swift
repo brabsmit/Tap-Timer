@@ -11,16 +11,17 @@ struct SolveDetailView: View {
     
     let solve: Solve
     
-    func stringToDate(solveDate: Date) -> String {
+    func dateToString(solveDate: Date) -> String {
         let formatter1 = DateFormatter()
-        formatter1.dateStyle = .short
+        formatter1.dateFormat = "yyyy-MM-dd hh:mm:ss"
         return(formatter1.string(from: solveDate))
     }
     
     var body: some View {
         VStack {
-            Text(stringToDate(solveDate: solve.solveDate ?? Date()))
+            Text(dateToString(solveDate: solve.solveDate))
             Text(String(format: "%.2f", solve.solveTime))
+            Text(solve.solveType)
         }
     }
 }

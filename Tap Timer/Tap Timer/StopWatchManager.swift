@@ -39,6 +39,7 @@ class StopWatchManager: ObservableObject {
         let newSolve = Solve(context: self.context)
         newSolve.solveDate = Date()
         newSolve.solveTime = secondsElapsed
+        newSolve.solveType = "3x3"
         do {
             try self.context.save()
         } catch {

@@ -17,7 +17,8 @@ extension Solve {
     }
 
     @NSManaged public var solveTime: Double
-    @NSManaged public var solveDate: Date?
+    @NSManaged public var solveDate: Date
+    @NSManaged public var solveType: String
 
 }
 
